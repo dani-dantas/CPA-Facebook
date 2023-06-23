@@ -1,7 +1,7 @@
 ticket = float(input('\nTicket: R$ '))
 
 cpa = ticket / 2
-conjunto = ticket // 2
+conjunto = round(ticket) // 2
 
 if conjunto % 2 != 0: conjunto -= 1
 
